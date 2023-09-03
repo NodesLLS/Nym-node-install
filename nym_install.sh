@@ -1,4 +1,5 @@
 #!/bin/bash
+curl -s https://raw.githubusercontent.com/NodesLLS/Node_tools/main/logo.sh | bash
 exists()
 {
   command -v "$1" >/dev/null 2>&1
