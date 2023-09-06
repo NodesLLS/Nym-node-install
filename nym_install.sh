@@ -39,7 +39,7 @@ cd $HOME
 rm -rf nym
 git clone https://github.com/nymtech/nym.git
 cd nym
-git checkout nym-binaries-v1.1.29-snickers
+git checkout nym-binaries-v1.1.30-twix
 cargo build --release --bin nym-mixnode
 sudo mv target/release/nym-mixnode /usr/local/bin/
 
